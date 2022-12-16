@@ -4,21 +4,21 @@
 
 body {
   margin: 0;
-  font-family: sans-serif;
+  font-family: 'Century Gothic';
   background: #264653;
 }
 
 .header {
-  text-align: center;
   background-color: #E76F51;
-  color: #E9C46A;
   border-bottom: 5px solid #2A9D8F;
-  padding: 5px 5px;
   height: 89px;
-  font-family: 'Verdana', Regular;
-  border-bottom: 4px solid #2A9D8F;
   overflow: hidden;
+}
 
+.header-text {
+  font-family: 'Helvetica';
+  color: #E9C46A;
+  text-align: center;
 }
 
 /* topnav bar */
@@ -52,10 +52,10 @@ body {
 
 .gallery img {
   width: 100%;
-  max-width: 280px;
+  max-width: 300px;
   height: 200px;
   object-fit: cover;
-  border-radius: 2px;
+  border-radius: 30px;
 }
 
 .gallery::after {
